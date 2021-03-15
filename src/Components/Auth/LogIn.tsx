@@ -65,10 +65,8 @@ const LogIn = ({ setAuth }: AuthProps) => {
           type={TYPE.password}
           label={"Password"}
           errors={passwordErrors}
-          // minLength={6}
-          // maxLength={20}
-          minLength={1}
-          maxLength={3}
+          minLength={6}
+          maxLength={20}
           required
         />
       </div>
