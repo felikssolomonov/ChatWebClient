@@ -1,17 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Auth from './Components/Auth/Auth';
+import React from "react";
+import "./App.css";
+import Auth from "./Components/Auth/Auth";
+import AuthProvider from "./Components/Auth/AuthContext";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Auth userId={""} />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header> */}
+    <div className={"body"}>
+      <AuthProvider>
+        <Auth />
+      </AuthProvider>
     </div>
   );
-}
+};
 
 export default App;

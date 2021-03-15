@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+.body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i.pinimg.com/736x/50/df/34/50df34b9e93f30269853b96b09c37e3b.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .box {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 20%;
+  width: 70%;
+  border-radius: 20px;
+  max-width: 320px;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.text-center {
+  display: flex;
+  position: relative;
+  align-self: center;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-container {
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: 24px;
+  width: 100%;
+  max-width: 300px;
 }
+.input-container input {
+  display: flex;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background: rgb(228, 228, 228);
+  font-size: 18px;
+  padding: 6px 12px;
+  width: 100%;
+  text-align: center;
+}
+.input-container input:focus {
+  outline: none;
+  border: 2px solid rgba(255, 25, 0, 0.7);
+}
+.input-container label {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  font-size: 16px;
+  color: rgb(145, 145, 145);
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label {
+  color: rgb(255, 255, 255);
+  top: -20px;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: rgb(228, 228, 228);
+  outline: none;
+  border: 0;
+  color: rgb(0, 0, 0);
+  padding: 11px 0;
+  text-transform: uppercase;
+  border-radius: 30px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 24px;
+  width: 100%;
+  max-width: 300px;
+} */
